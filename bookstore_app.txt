@@ -1,0 +1,27 @@
+Stores
+Books
+	- name
+	- Author
+	- Reviews
+Authors
+Users
+	- Clients
+	- Employees
+Reviews
+Shopping Cart
+Notifications -> when certain book is in stock / book that might be interested to a user
+Recommendations
+Bonuses
+Personal Preferences
+Chat with other employees / users
+See who is online
+
+/books
+/users
+/authors
+
+/home
+/login
+/books
+/authors
+/stores

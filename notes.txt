@@ -1,0 +1,37 @@
+if they close the browsing session or something, the shopping cart, should get cleared and the quantity of books restored
+checkeout should order the books
+unique orders per customer
+summary for the chekcout section with the total
+if no customer, the order should say annonimous
+for each annyonymous should be unique id
+add faq section
+ability to order more than 1 book at the time
+when book is 0 quantity, it should say out of stock and not be deleted
+change add-book to include and work with forms
+birthdays greetings with quotation
+list with most read or shared or voted quotations
+ability to get directions from predefined spots is the store
+ability to choose backroung music
+adapted books with predefined backroung music.. that can be changing depending on the page that you are on.. also visuals of the characters and such.. more like anime/manga hybrid/comics..
+keep statistics /per user and /globally
+statistcs about the top readers / top buyers.. 
+top novels.. etc by genre by year.. 
+new arivals
+reccomend
+review
+buy as a gift for a friend
+share/lend with friend
+the employees android app:
+ - their shifts
+ - help them organize books
+ - help find books that are not properly set up by scaning and using the camera of the phone 
+ - help identify scanned books that do not match the preset rules
+ - ability to remove book (without paying with note. in the event that it got stolen or damaged)
+
+keep info about the book location
+page with map of the store.. -> so employees -> customers can easily find it
+
+order online
+Warehouses or BookRepositories (editable by admins) - new store can be initiated with default Book Repository for easier setup
+
+labels in different languages

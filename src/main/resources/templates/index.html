@@ -1,0 +1,67 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/home.css" th:href="@{/styles/home.css}">
+</head>
+<body>
+<div th:replace="headers/header">
+
+</div>
+<Header username={username} />
+<main>
+    <div id="templatemo_content_left">
+        <div class="templatemo_content_left_section">
+            <h1>Categories</h1>
+            <ul>
+                <li key="1"><a href="subpage.html">Donec accumsan urna</a></li>
+                <li key="2"><a href="subpage.html">Proin vulputate justo</a></li>
+                <li key="3"><a href="#">In sed risus ac feli</a></li>
+                <li><a href="#">Aliquam tristique dolor</a></li>
+                <li><a href="#">Maece nas metus</a></li>
+                <li><a href="#">Sed pellentesque placerat</a></li>
+                <li><a href="#">Suspen disse</a></li>
+                <li><a href="#">Maece nas metus</a></li>
+                <li><a href="#">In sed risus ac feli</a></li>
+            </ul>
+        </div>
+        <div class="templatemo_content_left_section">
+            <h1>Bestsellers</h1>
+            <ul>
+                <li><a href="#">Vestibulum ullamcorper</a></li>
+                <li><a href="#">Maece nas metus</a></li>
+                <li><a href="#">In sed risus ac feli</a></li>
+                <li><a href="#">Praesent mattis varius</a></li>
+                <li><a href="#">Maece nas metus</a></li>
+                <li><a href="#">In sed risus ac feli</a></li>
+                <li><a href="#">Flash Templates</a></li>
+                <li><a href="#">CSS Templates</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="http://www.photovaco.com" target="_parent">Free Photos</a></li>
+            </ul>
+        </div>
+    </div>
+    <Route path="/" exact strict component={ListBooks} />
+    <Route path="/login">
+        <Login onLogin={onLogin} />
+    </Route>
+    <Route path="/books" exact strict component={ListBooks} />
+    <Route path="/books/:id" exact strict component={BookDetails}/>
+        <Route path="/add-book" component={AddBook} />
+        <Route path="/orders" component={ListOrders} />
+        <Route path="/logout">
+            <Logout onLogout={onLogout} />
+        </Route>
+        <Route path="/register" component={Register} />
+        <Route path="/shopping-cart" component={ShoppingCart} />
+        <Route path="/users" component={ListUsers}></Route>
+        <Route path="/add-user" component={AddUser}></Route>
+        <Route path="/add-category" component={AddCategory}></Route>
+
+</main>
+<footer>
+    <a href="subpage.html">Home</a> | <a href="subpage.html">Search</a> | <a href="subpage.html">Books</a> | <a href="#">New Releases</a> | <a href="#">FAQs</a> | <a href="#">Contact Us</a><br />
+    Copyright © 2024 <a href="#"><strong>Your Company Name</strong></a>
+</footer>
+</body>
+</html>
